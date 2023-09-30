@@ -13,12 +13,12 @@ class CategoriesController extends Controller
         $categories ->category_id=$req->category_id;
         $categories ->Category_name=$req->Category_name;
         $categories ->save();
-        if($result)
+       /* if($result)
         {
             return["Result"=>"Data has been saved"];
         }
         else{
             return["Result"=>"Operation Failed"];
-        }
+        }*/
     }
 }

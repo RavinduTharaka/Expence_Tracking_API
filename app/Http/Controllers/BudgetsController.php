@@ -16,12 +16,12 @@ class BudgetsController extends Controller
         $budgets ->to_date=$req->to_date;
         $budgets ->amount=$req->amount;
         $budgets ->save();
-        if($result)
+        /*if($result)
         {
             return["Result"=>"Data has been saved"];
         }
         else{
             return["Result"=>"Operation Failed"];
-        }
+        }*/
     }
 }

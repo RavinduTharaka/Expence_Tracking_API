@@ -31,3 +31,4 @@ Route::post('/login', [AuthController::class, 'loginUser']);
 Route::post("login",[UserController::class,'index']);
 Route::post("add",[CategoriesController::class,'add']);
 Route::post("insert",[BudgetsController::class,'insert']);
+Route::post("insert",[ExpenceController::class,'insert']);
