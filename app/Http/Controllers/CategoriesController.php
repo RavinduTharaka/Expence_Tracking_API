@@ -21,4 +21,9 @@ class CategoriesController extends Controller
             return["Result"=>"Operation Failed"];
         }*/
     }
+
+    function view(){
+        return categories::select('Category_name')->get();
+    }
+    
 }
